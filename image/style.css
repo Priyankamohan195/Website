@@ -1,0 +1,70 @@
+#topbar
+{
+background-color:Olive;
+height:70px;
+width:100%;
+}
+#topbar ul
+{
+float:right;
+margin-top:20px;
+}
+#topbar ul li
+{
+display:inline;
+margin-right:10px;
+}
+#topbar ul li a
+{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+body
+{
+background-color:white;
+font-family:bookman old style;
+}
+#container
+{
+background-color:white;
+height:900px;
+width:70%;
+margin:0px auto;
+}
+
+#photo img
+{
+height:300px;
+float:left;
+margin-left:150px;
+margin-top:50px;
+}
+#info
+{
+float:right;
+width:50%;
+margin:30px
+}
+#info p
+{
+font-size:18px;
+line-height: 1.5;
+}
+#research li::marker
+{
+  color: red;
+}
+#social ul li 
+{
+float:left;
+display:inline;
+margin-right:90px;
+row-gap: 50px;
+}
+#social ul li a
+{
+color:black;
+text-decoration:none;
+font-size:20px;
+}
